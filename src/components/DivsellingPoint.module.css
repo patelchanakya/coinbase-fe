@@ -1,0 +1,89 @@
+.svgIcon {
+  width: 270px;
+  height: 270px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.useYourCard,
+.worldwide {
+  margin: 0;
+}
+.useYourCardContainer {
+  margin: 0;
+  height: 80px;
+  position: relative;
+  font-size: inherit;
+  line-height: 40px;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+}
+.heading3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-57xl) var(--padding-0)
+    var(--padding-58xl);
+  box-sizing: border-box;
+  min-height: 80px;
+}
+.readyToUse,
+.theWorldPay,
+.withdrawCashFrom {
+  margin: 0;
+}
+.readyToUseContainer {
+  height: 90px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 30px;
+  color: var(--cardcoinbasecom-fiord);
+  display: flex;
+  align-items: center;
+  max-width: 370px;
+}
+.divsellingPoint,
+.spendingSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.spendingSection {
+  align-self: stretch;
+  gap: var(--gap-mid);
+}
+.divsellingPoint {
+  width: 372px;
+  padding: var(--padding-0) var(--padding-0) var(--padding-161xl);
+  box-sizing: border-box;
+  gap: var(--gap-31xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-16xl);
+  color: var(--cardcoinbasecom-ebony-clay1);
+  font-family: var(--cardcoinbasecom-roboto-regular-13);
+}
+@media screen and (max-width: 825px) {
+  .useYourCardContainer {
+    font-size: var(--font-size-9xl);
+    line-height: 32px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .useYourCardContainer {
+    font-size: var(--font-size-2xl);
+    line-height: 24px;
+  }
+  .heading3 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .divsellingPoint {
+    gap: var(--gap-6xl);
+  }
+}

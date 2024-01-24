@@ -1,0 +1,998 @@
+.after,
+.sectionHeading {
+  align-self: stretch;
+  background: linear-gradient(180deg, #f7f8fa, #fff);
+}
+.after {
+  position: relative;
+  height: 900px;
+  display: none;
+}
+.sectionHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-0) 776px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.svgIcon {
+  width: 270px;
+  height: 270px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.instantly,
+.spendYourCrypto {
+  margin: 0;
+}
+.spendYourCryptoContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 40px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.heading3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-22xl) var(--padding-0)
+    var(--padding-23xl);
+  box-sizing: border-box;
+  min-height: 80px;
+}
+.aVisaDebit,
+.balance,
+.poweredByYour,
+.spendableAsThe {
+  margin: 0;
+}
+.aVisaDebitContainer {
+  height: 120px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 30px;
+  color: var(--cardcoinbasecom-fiord);
+  display: flex;
+  align-items: center;
+  max-width: 370px;
+}
+.cardIconSVG {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.divsellingPoint,
+.divsellingPointParent {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.divsellingPoint {
+  width: 372px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-131xl);
+  gap: var(--gap-31xl);
+}
+.divsellingPointParent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-0) 4px var(--padding-0) var(--padding-0);
+  gap: var(--gap-xl);
+}
+.svgIcon1 {
+  width: 270px;
+  height: 270px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.selectYourCrypto,
+.wallet {
+  margin: 0;
+}
+.selectYourCryptoContainer {
+  margin: 0;
+  height: 80px;
+  position: relative;
+  font-size: inherit;
+  line-height: 40px;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+}
+.heading31 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-22xl) var(--padding-0)
+    var(--padding-23xl);
+  box-sizing: border-box;
+  min-height: 80px;
+}
+.chooseWhichCrypto,
+.more,
+.switchBetweenBitcoin,
+.theAppIt {
+  margin: 0;
+}
+.chooseWhichCryptoContainer {
+  height: 120px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 30px;
+  color: var(--cardcoinbasecom-fiord);
+  display: flex;
+  align-items: center;
+  max-width: 370px;
+}
+.divsellingPoint1,
+.heading3Parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.heading3Parent {
+  align-self: stretch;
+  gap: var(--gap-mid);
+}
+.divsellingPoint1 {
+  width: 371px;
+  padding: var(--padding-0) var(--padding-0) var(--padding-131xl);
+  box-sizing: border-box;
+  gap: var(--gap-31xl);
+  max-width: 100%;
+}
+.divsellingPointGroup,
+.divsellingPoints {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.divsellingPointGroup {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-0) var(--padding-10xs) var(--padding-0)
+    var(--padding-0);
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.divsellingPoints {
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-131xl) var(--padding-0) var(--padding-0)
+    var(--padding-xl);
+  max-width: 938px;
+  z-index: 3;
+}
+.svgIcon2 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 4;
+}
+.svgWrapper {
+  height: 250px;
+  width: 283px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-4xl);
+  box-sizing: border-box;
+  min-width: 283px;
+}
+.trackEvery {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 40px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.trackEveryWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) 7px var(--padding-0) var(--padding-0);
+}
+.after1,
+.pound {
+  position: relative;
+}
+.pound {
+  margin: 0;
+  font-size: inherit;
+  line-height: 40px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.after1 {
+  align-self: stretch;
+  height: 4px;
+  background-color: var(--cardcoinbasecom-blue-ribbon1);
+  z-index: 1;
+  margin-top: -22px;
+}
+.emptyRectangle,
+.poundParent {
+  display: flex;
+  align-items: center;
+}
+.poundParent {
+  height: 40px;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.emptyRectangle {
+  margin: 0;
+  width: 9px;
+  position: relative;
+  font-size: inherit;
+  line-height: 40px;
+  font-weight: 700;
+  font-family: inherit;
+  justify-content: center;
+}
+.frameContainer {
+  height: 41px;
+  width: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1px;
+}
+.bitcoin {
+  margin: 0;
+  width: 117px;
+  position: relative;
+  font-size: inherit;
+  line-height: 40px;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frameGroup,
+.transactionSummary {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameGroup {
+  align-items: flex-end;
+  padding: var(--padding-0) var(--padding-12xs) var(--padding-0)
+    var(--padding-0);
+  gap: 5px;
+}
+.transactionSummary {
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0) 6px;
+}
+.spendingSummariesTransactio,
+.theCoinbaseCard {
+  margin: 0;
+}
+.spendingSummariesTransactioContainer {
+  height: 68px;
+  position: relative;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  max-width: 668px;
+}
+.psectionHeadingText {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 668px;
+  font-size: var(--font-size-lg);
+  color: var(--cardcoinbasecom-fiord);
+}
+.selectCryptoWallet {
+  width: 668px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  min-width: 668px;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1054px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.divsellingPointsParent,
+.frameWrapper {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-12xs);
+}
+.divsellingPointsParent {
+  width: 1209px;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-0) var(--padding-xl) var(--padding-0) var(--padding-0);
+}
+.appPreview2xpngIcon,
+.svgIcon3 {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.appPreview2xpngIcon {
+  height: 542.1px;
+  width: 310px;
+  object-fit: cover;
+  max-width: 1440px;
+}
+.svgIcon3 {
+  height: 159px;
+  width: 159px;
+}
+.appPreview2xpngParent {
+  width: 863px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.easiestSpendMethod {
+  height: 16px;
+  width: 20px;
+  position: relative;
+}
+.theEasiestWay {
+  position: relative;
+  line-height: 27px;
+  font-weight: 500;
+}
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) 28px var(--padding-0) var(--padding-0);
+  gap: var(--gap-5xl);
+}
+.frameIcon {
+  height: 16px;
+  width: 20px;
+  position: relative;
+}
+.instantTransactionsAnd {
+  position: relative;
+  line-height: 27px;
+  font-weight: 500;
+}
+.item1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.frameIcon1 {
+  height: 16px;
+  width: 20px;
+  position: relative;
+}
+.trackYourSpend {
+  position: relative;
+  line-height: 27px;
+  font-weight: 500;
+}
+.item2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.frameIcon2 {
+  height: 16px;
+  width: 20px;
+  position: relative;
+}
+.easilyChooseWhich {
+  position: relative;
+  line-height: 27px;
+  font-weight: 500;
+}
+.item3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.googlePlayIcon {
+  height: 16px;
+  width: 19.5px;
+  position: relative;
+}
+.safe,
+.worldClassSecurityTo {
+  margin: 0;
+}
+.worldClassSecurityToContainer {
+  height: 54px;
+  position: relative;
+  line-height: 27px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.securityCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  max-width: calc(100% - 42px);
+}
+.item4,
+.list {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.item4 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-0) var(--padding-0) var(--padding-12xs);
+  box-sizing: border-box;
+  gap: 23px;
+}
+.list {
+  width: 419px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 9px;
+}
+.getTheApp {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 34.5px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 418.20001220703125px;
+  max-height: 34.5px;
+}
+.heading32,
+.heading3margin {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.heading3margin {
+  padding: var(--padding-0) var(--padding-0) var(--padding-mini);
+}
+.downloadTheCoinbase {
+  position: relative;
+  line-height: 34px;
+  display: inline-block;
+  max-width: 418.20001220703125px;
+}
+.psignupFeaturesFormCopy,
+.psignupFeaturesFormCopym {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.psignupFeaturesFormCopy {
+  padding: var(--padding-0) 35px var(--padding-0) var(--padding-0);
+  opacity: 0.7;
+}
+.psignupFeaturesFormCopym {
+  padding: var(--padding-0) var(--padding-0) var(--padding-mini);
+  font-size: var(--font-size-lg);
+}
+.appLinkApplesvgIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.appLinkApplesvgFill {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.appLinkApplesvg,
+.link {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.appLinkApplesvg {
+  width: 100%;
+  flex: 1;
+  overflow: hidden;
+  flex-direction: row;
+  max-width: 150px;
+}
+.link {
+  height: 61px;
+  width: 150px;
+  flex-direction: column;
+  padding: var(--padding-0) var(--padding-0) var(--padding-2xs);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.linkGooglePlayBadge2xpn {
+  width: 100%;
+  height: 50px;
+  position: relative;
+  max-width: 168px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  cursor: pointer;
+}
+.divappStoreLinks,
+.linkmargin {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.linkmargin {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-0) var(--padding-0) var(--padding-2xs)
+    var(--padding-11xl);
+  box-sizing: border-box;
+  min-width: 129px;
+}
+.divappStoreLinks {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-0) 7var (--padding-0) var(--padding-0) 0;
+  row-gap: 20px;
+}
+.divsignupFeaturesForm {
+  width: 510px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 19.25px var(--padding-0) 109.25px 91.80000305175781px;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--cardcoinbasecom-roboto-bold-30-size);
+}
+.after2 {
+  height: 278px;
+  width: 2px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 138.9px);
+  left: 588.5px;
+  background-color: var(--cardcoinbasecom-black-10);
+  z-index: 1;
+}
+.divsignup,
+.divsignupFeatures {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.divsignupFeatures {
+  flex: 1;
+  background-color: var(--cardcoinbasecom-blue-ribbon);
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 9var (--padding-0) 80px 0;
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-xl);
+}
+.divsignup {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--cardcoinbasecom-nero-02);
+  box-shadow: 0 12px 32px rgba(13, 24, 51, 0.14);
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+.byTheFinancial,
+.thisCardIs {
+  margin: 0;
+}
+.thisCardIsContainer {
+  position: relative;
+  line-height: 19.5px;
+  display: inline-block;
+  max-width: 1024px;
+}
+.divfineprint {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 1064px;
+  text-align: center;
+  font-size: var(--cardcoinbasecom-roboto-regular-13-size);
+  color: var(--cardcoinbasecom-fiord);
+}
+.divsignupParent {
+  width: 1200px;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-0) var(--padding-xl) var(--padding-0) var(--padding-0);
+  gap: 35px;
+}
+.divsignupParent,
+.frameDiv,
+.signUpFeaturesForm {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.signUpFeaturesForm {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-12xs);
+}
+.frameDiv {
+  width: 1330px;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0) var(--padding-xl);
+  gap: 194px;
+}
+.frameDivSellingpoint,
+.frameDivSellingpointInner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameDivSellingpointInner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--cardcoinbasecom-nero);
+}
+.frameDivSellingpoint {
+  position: absolute;
+  top: 1414px;
+  left: 0.5px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 100px;
+}
+.divpageInner {
+  height: 4476.1px;
+  flex: 1;
+  position: relative;
+  background-color: var(--cardcoinbasecom-nero);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-16xl);
+  color: var(--cardcoinbasecom-ebony-clay1);
+  font-family: var(--cardcoinbasecom-roboto-regular-13);
+}
+.divpage {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 122px;
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 1440px;
+  min-height: 810px;
+  z-index: 2;
+}
+.svgIcon4 {
+  height: 18px;
+  width: 102px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.coinbase {
+  position: relative;
+  line-height: 34px;
+}
+.span,
+.spanmargin {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-11xs) var(--padding-0)
+    var(--padding-0);
+}
+.spanmargin {
+  padding: var(--padding-0) var(--padding-0) var(--padding-0) 10px;
+}
+.divfooterInner,
+.divfooterTrademark {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+.divfooterInner {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-0) 918px var(--padding-0) var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 1440px;
+  gap: 0;
+  row-gap: 20px;
+}
+.cardcoinbasecomByHtmltod,
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--cardcoinbasecom-ebony-clay);
+  align-items: center;
+  padding: 24px var(--padding-0);
+  text-align: left;
+  font-size: 16px;
+  color: var(--cardcoinbasecom-bali-hai);
+  font-family: var(--cardcoinbasecom-roboto-regular-13);
+}
+.cardcoinbasecomByHtmltod {
+  width: 100%;
+  position: relative;
+  align-items: flex-start;
+  gap: 3740px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1450px) {
+  .appPreview2xpngIcon {
+    max-width: 100%;
+  }
+  .frameDiv {
+    gap: 97px;
+  }
+  .divpage {
+    max-width: 100%;
+  }
+  .divfooterInner {
+    padding-right: 459px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .sectionHeading {
+    padding-bottom: 504px;
+    box-sizing: border-box;
+  }
+  .divsellingPoints {
+    max-width: 100%;
+  }
+  .svgIcon2 {
+    align-self: stretch;
+    width: auto;
+  }
+  .frameGroup,
+  .selectCryptoWallet,
+  .svgWrapper {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .divsignupFeatures {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .divfineprint,
+  .thisCardIsContainer {
+    max-width: 100%;
+  }
+  .divpageInner {
+    height: auto;
+    min-height: 4476.1;
+  }
+}
+@media screen and (max-width: 825px) {
+  .spendYourCryptoContainer {
+    font-size: var(--font-size-9xl);
+    line-height: 32px;
+  }
+  .divsellingPointParent {
+    flex-wrap: wrap;
+  }
+  .selectYourCryptoContainer {
+    font-size: var(--font-size-9xl);
+    line-height: 32px;
+  }
+  .divsellingPointGroup {
+    flex-wrap: wrap;
+  }
+  .bitcoin,
+  .emptyRectangle,
+  .pound,
+  .trackEvery {
+    font-size: var(--font-size-9xl);
+    line-height: 32px;
+  }
+  .psectionHeadingText,
+  .spendingSummariesTransactioContainer {
+    max-width: 100%;
+  }
+  .selectCryptoWallet {
+    min-width: 100%;
+  }
+  .appPreview2xpngParent {
+    flex-wrap: wrap;
+  }
+  .getTheApp {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .divappStoreLinks {
+    flex-wrap: wrap;
+  }
+  .divsignupFeaturesForm {
+    padding-left: 46px;
+    box-sizing: border-box;
+  }
+  .divsignupParent {
+    gap: var(--gap-mid);
+  }
+  .frameDiv {
+    gap: 48px;
+  }
+  .frameDivSellingpoint {
+    gap: var(--gap-31xl);
+  }
+  .divfooterInner {
+    padding-right: 229px;
+    box-sizing: border-box;
+  }
+  .cardcoinbasecomByHtmltod {
+    gap: 1870px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sectionHeading {
+    padding-bottom: 328px;
+    box-sizing: border-box;
+  }
+  .spendYourCryptoContainer {
+    font-size: var(--font-size-2xl);
+    line-height: 24px;
+  }
+  .heading3 {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .divsellingPoint {
+    gap: var(--gap-6xl);
+  }
+  .selectYourCryptoContainer {
+    font-size: var(--font-size-2xl);
+    line-height: 24px;
+  }
+  .heading31 {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .divsellingPoint1 {
+    gap: var(--gap-6xl);
+  }
+  .bitcoin,
+  .emptyRectangle,
+  .pound,
+  .trackEvery {
+    font-size: var(--font-size-2xl);
+    line-height: 24px;
+  }
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+  .getTheApp {
+    font-size: var(--font-size-lg);
+    line-height: 21px;
+  }
+  .downloadTheCoinbase,
+  .getTheApp {
+    max-width: 100%;
+  }
+  .divappStoreLinks {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .divsignupFeaturesForm {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .frameDiv {
+    gap: var(--gap-5xl);
+  }
+  .frameDivSellingpoint {
+    gap: var(--gap-6xl);
+  }
+  .divfooterInner {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .cardcoinbasecomByHtmltod {
+    gap: 935px;
+  }
+}

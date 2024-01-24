@@ -1,0 +1,151 @@
+.cardMirror2xpngIcon,
+.cardMockup2xpngIcon {
+  overflow: hidden;
+  object-fit: cover;
+  max-width: 1440px;
+}
+.cardMockup2xpngIcon {
+  height: 461px;
+  flex: 1;
+  position: relative;
+}
+.cardMirror2xpngIcon {
+  width: 280px;
+  position: absolute;
+  margin: 0 !important;
+  right: 14px;
+  bottom: -401.5px;
+  height: 421.5px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.cardMockup2xpngParent {
+  width: 322px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-12xs) var(--padding-0)
+    var(--padding-0);
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+}
+.divshape,
+.svgIcon {
+  position: absolute;
+  margin: 0 !important;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.svgIcon {
+  height: 158px;
+  width: 158px;
+  top: -39px;
+  left: 169.5px;
+}
+.divshape {
+  height: 290px;
+  width: 290px;
+  right: -139.5px;
+  bottom: 50px;
+  border-radius: var(--br-126xl);
+  background: linear-gradient(
+    83.11deg,
+    rgba(86, 177, 254, 0.78),
+    #56b1fe 94.61%
+  );
+}
+.divcardMockupImageWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-21xl) var(--padding-0)
+    var(--padding-xl);
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+}
+.introducingCoinbaseCard {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 40px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 1180px;
+  z-index: 3;
+}
+.aVisaDebit,
+.theEasiestQuickest {
+  margin: 0;
+}
+.aVisaDebitContainer {
+  height: 68px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 34px;
+  color: var(--cardcoinbasecom-fiord);
+  display: flex;
+  align-items: center;
+  max-width: 1180px;
+  z-index: 3;
+}
+.frameSignUpForm,
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-sm);
+  max-width: 100%;
+}
+.section {
+  position: absolute;
+  width: 100%;
+  top: 663px;
+  right: -0.5px;
+  left: 0.5px;
+  padding: var(--padding-45xl) var(--padding-0) var(--padding-195xl);
+  gap: var(--gap-45xl);
+  text-align: center;
+  font-size: var(--font-size-16xl);
+  color: var(--cardcoinbasecom-ebony-clay1);
+  font-family: var(--cardcoinbasecom-roboto-regular-13);
+}
+@media screen and (max-width: 1450px) {
+  .cardMirror2xpngIcon,
+  .cardMockup2xpngIcon {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .aVisaDebitContainer,
+  .introducingCoinbaseCard {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 825px) {
+  .introducingCoinbaseCard {
+    font-size: var(--font-size-9xl);
+    line-height: 32px;
+  }
+  .section {
+    gap: var(--gap-13xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .introducingCoinbaseCard {
+    font-size: var(--font-size-2xl);
+    line-height: 24px;
+  }
+  .section {
+    gap: var(--gap-base);
+  }
+}

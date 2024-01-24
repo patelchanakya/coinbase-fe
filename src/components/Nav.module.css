@@ -1,0 +1,114 @@
+.card {
+  position: relative;
+  line-height: 34px;
+  font-weight: 300;
+  color: inherit;
+  text-decoration: none;
+}
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-10xs);
+}
+.downloadTheApp {
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+  color: inherit;
+  text-decoration: none;
+}
+.link {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-8xs) var(--padding-0)
+    var(--padding-0);
+  cursor: pointer;
+}
+.linkFaq {
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+.linkmargin {
+  flex-direction: column;
+  padding: var(--padding-12xs) var(--padding-11xs) var(--padding-0)
+    var(--padding-11xl);
+  margin-left: -0.01px;
+}
+.divscAzgdb,
+.divscCoajty,
+.linkmargin {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divscAzgdb {
+  flex-direction: row;
+  padding: var(--padding-lg) var(--padding-xl);
+}
+.divscCoajty {
+  flex-direction: column;
+}
+.divscKhakjo {
+  height: 41px;
+  flex: 1;
+  position: relative;
+  min-width: 312px;
+  max-width: 100%;
+}
+.divscCoajtyParent {
+  width: 701px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-12xs) var(--padding-0)
+    var(--padding-0);
+  row-gap: 20px;
+  max-width: 100%;
+  font-size: var(--font-size-sm);
+  font-family: var(--cardcoinbasecom-roboto-regular-13);
+}
+.divscBbronj,
+.divscCoajtyParent,
+.nav {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.divscBbronj {
+  width: 1260px;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: space-between;
+  padding: var(--padding-0) var(--padding-41xl) var(--padding-0)
+    var(--padding-xl);
+  max-width: 1220px;
+  gap: var(--gap-xl);
+}
+.nav {
+  align-self: stretch;
+  background-color: var(--cardcoinbasecom-nero);
+  border-bottom: 1px solid var(--cardcoinbasecom-porcelain);
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-0) var(--padding-12xs);
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-mid-7);
+  color: var(--cardcoinbasecom-black-pearl);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1450px) {
+  .divscBbronj {
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+}
