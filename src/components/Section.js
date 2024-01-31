@@ -2,6 +2,7 @@ import styles from "./Section.module.css";
 import { useLottie } from 'lottie-react';
 
 
+
 const Section = () => {
 
 
@@ -42,19 +43,24 @@ const Section = () => {
       </div>
       <div className={styles.frameSignUpForm}>
         <h2 className={styles.introducingCoinbaseCard}>
-          Introducing Coinbase Card
+          Introducing Chanakya Patel
         </h2>
         <div className={styles.aVisaDebitContainer}>
           <span>
             <p className={styles.aVisaDebit}>
-              A Visa debit card, funded by your Coinbase balance.
+              Eager Full-Stack Engineer.
             </p>
             <p className={styles.theEasiestQuickest}>
-              The easiest, quickest way to spend your crypto worldwide.
+              Aiming to innovate at Coinbase's card division with user-centric design.
             </p>
           </span>
         </div>
+
       </div>
+
+      <a href="https://github.com/patelchanakya/coinbase-fe" target="_blank" rel="noopener noreferrer">
+        <img src="/res.png" alt="chanakya patel resume" />
+      </a>
     </div>
   );
 };
